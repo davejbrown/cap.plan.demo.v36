@@ -6,7 +6,7 @@ Deferral Ledger prices the cost of deferring road repairs and compares paving st
 
 The whole app is one self-contained HTML file: `src/deferral-ledger.html`. Edit that file to change the app.
 
-- **GitHub Pages:** `.github/workflows/pages.yml` publishes that file as the site on every push to `main`.
+- **GitHub Pages:** `.github/workflows/pages.yml` copies that file to the `gh-pages` branch on every push to `main`, and Pages serves it.
 - **Local server:** the TanStack Start project in this repo serves the same file at `/`.
 
 ## Run it locally
